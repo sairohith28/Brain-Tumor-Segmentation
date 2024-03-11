@@ -57,4 +57,4 @@ if submit:
         col1, col2, col3 = st.columns(3)
         col1.image(opencv_image, channels="BGR", caption='Original Image')
         col2.image(mask, caption='Segmentation Mask')
-        col3.image(masked_image, channels="BGR", caption='Masked Image')
+        # col3.image(masked_image, channels="BGR", caption='Masked Image')
